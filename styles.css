@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+body
+{
+    background-color: darkseagreen ;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
+
+  .pesto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+  .beef {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .moussaka {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #A8E890;
+    
+  }
+  
+  .container:hover .overlay {
+    opacity: 2;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
